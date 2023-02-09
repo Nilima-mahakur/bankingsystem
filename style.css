@@ -1,0 +1,166 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto';
+  }
+  #nav-bar{
+    background-color: white;
+    color: black;
+  }
+  .logo{
+    width: 59px;
+    height: 46px;
+    margin-right: 10px;
+  }
+  
+  .heading{
+    float: left;
+    display: flex;
+   
+  }
+  .navbar-nav {
+    background-color: rgb(210, 45, 191);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    float: right;
+    width: 100vw;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .nav-link:hover {
+    background-color: rgb(2, 11, 15);
+  }
+  
+  .navbar {
+    padding: 0 !important;
+  }
+  
+  navbar-brand img {
+    height: 40px;
+    padding-left: 20px;
+  }
+  
+  .navbar-nav li {
+    padding: 0 10px;
+  }
+  
+  .navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+  }
+  
+ 
+  
+  .navbar-toggler {
+    outline: none !important;
+  }
+  
+  /*---banner section--*/
+  #main {
+    text-align: center;
+    background-color: #0096FF;
+    color: #fff;
+    padding-top: 10%;
+  }
+  
+  .container h1 img {
+    padding-bottom: 10px;
+  }
+  
+  /*---service section---*/
+  #features1 {
+    text-align: center;
+    padding: 10% 15%;
+  }
+  
+  #features {
+    text-align: center;
+    padding: 10% 15%;
+  
+  }
+  
+  .features1 h3 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+  }
+  
+  .features h3 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+  }
+  
+  .title::before {
+    content: '';
+    background: #0ad55c;
+    height: 5px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translatey(83px);
+  }
+  
+  .title::after {
+    content: '';
+    background: #c046b0;
+    height: 4px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translatey(5px);
+  }
+  
+  
+  /* Action*/
+  #action {
+    background-color: #b380b05f;
+    padding: 8% 18%;
+    text-align: center;
+    /* line-height: 1.5; */
+  
+    color: rgb(31, 8, 8);
+  }
+  
+  .main {
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 10px 0px;
+  }
+  .btn{
+    border: none;
+    background-color: green;
+    color: white;
+    margin-bottom: 15px;
+    list-style: none;
+  }
+  
+
+
+
+  /* footer */
+ .para{
+    width: 100%;
+    height: 30px;
+    background-color: #c31bc3;
+    color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
